@@ -62,9 +62,7 @@
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="BeatSaberCinema">
-      <HintPath>$(BeatSaberDir)\Plugins\BeatSaberCinema.dll</HintPath>
-      <Private>False</Private>
-      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Games\Beat Saber Versions\BSManager\BSInstances\1.40.8 Dev\Plugins\BeatSaberCinema.dll</HintPath>
     </Reference>
     <Reference Include="BGLib.AppFlow">
       <HintPath>$(BeatSaberDir)\Beat Saber_Data\Managed\BGLib.AppFlow.dll</HintPath>
@@ -86,8 +84,22 @@
       <Private>False</Private>
       <SpecificVersion>False</SpecificVersion>
     </Reference>
+    <Reference Include="Colors">
+      <HintPath>..\..\..\..\..\..\..\Games\Beat Saber Versions\BSManager\BSInstances\1.40.8 Dev\Beat Saber_Data\Managed\Colors.dll</HintPath>
+    </Reference>
     <Reference Include="DataModels">
       <HintPath>$(BeatSaberDir)\Beat Saber_Data\Managed\DataModels.dll</HintPath>
+      <Private>False</Private>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="HMRendering">
+      <HintPath>..\..\..\..\..\..\..\Games\Beat Saber Versions\BSManager\BSInstances\1.40.8 Dev\Beat Saber_Data\Managed\HMRendering.dll</HintPath>
+    </Reference>
+    <Reference Include="Main">
+      <HintPath>..\..\..\..\..\..\..\Games\Beat Saber Versions\BSManager\BSInstances\1.40.8 Dev\Beat Saber_Data\Managed\Main.dll</HintPath>
+    </Reference>
+    <Reference Include="Rendering">
+      <HintPath>$(BeatSaberDir)\Beat Saber_Data\Managed\Rendering.dll</HintPath>
       <Private>False</Private>
       <SpecificVersion>False</SpecificVersion>
     </Reference>
@@ -136,20 +148,8 @@
     <Reference Include="HMLib">
       <HintPath>$(BeatSaberDir)\Beat Saber_Data\Managed\HMLib.dll</HintPath>
     </Reference>
-    <Reference Include="HMRendering" publicize="True">
-      <HintPath>$(BeatSaberDir)\Beat Saber_Data\Managed\HMRendering.dll</HintPath>
-    </Reference>
     <Reference Include="HMUI">
       <HintPath>$(BeatSaberDir)\Beat Saber_Data\Managed\HMUI.dll</HintPath>
-    </Reference>
-    <Reference Include="Main" publicize="True">
-      <HintPath>$(BeatSaberDir)\Beat Saber_Data\Managed\Main.dll</HintPath>
-    </Reference>
-    <Reference Include="Colors" publicize="True">
-      <HintPath>$(BeatSaberDir)\Beat Saber_Data\Managed\Colors.dll</HintPath>
-    </Reference>
-    <Reference Include="Rendering" publicize="True">
-      <HintPath>$(BeatSaberDir)\Beat Saber_Data\Managed\Rendering.dll</HintPath>
     </Reference>
     <Reference Include="GameplayCore">
       <HintPath>$(BeatSaberDir)\Beat Saber_Data\Managed\GameplayCore.dll</HintPath>
