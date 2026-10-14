@@ -58,7 +58,7 @@ public class StandardGameplayEnvironmentGrabber : IEnvironmentObjectSource, IAff
 
     private bool _environmentDidStart;
     
-    [AffinityPatch(typeof(TrackLaneRingsManager), nameof(TrackLaneRingsManager.Start))]
+    [AffinityPatch(typeof(TrackLaneRingsManager), nameof(TrackLaneRingsManager.StartCoroutine))]
     private void TrackLaneRingsManagerStart() => _environmentDidStart = true;
 
     private async Task WaitForRingsStart(int timeoutMilliseconds)
