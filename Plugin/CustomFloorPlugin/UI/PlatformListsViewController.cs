@@ -60,6 +60,12 @@ internal class PlatformListsViewController : BSMLAutomaticViewController
         set => _config.CustomSongPlatforms = value;
     }
     
+    public bool OverrideIncompatibleRequirements
+    {
+        get => _config.OverrideIncompatibleRequirements;
+        set => _config.OverrideIncompatibleRequirements = value;
+    }
+    
     [UIAction("select-tab")]
     public void OnDidSelectTab(SegmentedControl segmentedControl, int _)
     {
